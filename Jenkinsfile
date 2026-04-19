@@ -31,6 +31,7 @@ pipeline {
     }
 
     stage('Archive Artifacts') {
+	when { branch 'main'}
       steps {
         echo "Archiving artifacts..."
         archiveArtifacts artifacts: 'app.sh', fingerprint: true
