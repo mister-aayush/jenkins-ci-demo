@@ -17,10 +17,10 @@ if [ -x "./app.sh" ]; then
   echo "TEST 2 PASSED: app.sh is executable"
 else
   echo "TEST 2 FAILED: app.sh not executable"
-  exit 1
+  eit 1
 fi
 
 echo "=============================="
 echo " All tests passed!"
 echo "=============================="
-exit 0
+exit0
