@@ -1,6 +1,6 @@
 # jenkins-ci-demo
 
-A demo app for Jenkins CI/CD pipeline practice.
+A demo app for Jenkins CI/CD pipeline practice. In lf-connect
 
 ## Files
 - `app.sh` — prints system info and app version
