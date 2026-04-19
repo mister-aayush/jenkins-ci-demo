@@ -12,3 +12,4 @@ echo "Memory   : $(free -h | awk '/Mem:/{print $3 "/" $2}')"
 echo "User     : $(whoami)"
 echo "=============================="
 echo "App started successfully!"
+# updated
