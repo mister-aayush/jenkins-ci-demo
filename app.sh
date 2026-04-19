@@ -1,5 +1,5 @@
 #!/bin/bash
-APP_VERSION="1.0.0"
+APP_VERSION="2.0.0"
 echo "=============================="
 echo " Demo App v${APP_VERSION}"
 echo "=============================="
@@ -10,6 +10,5 @@ echo "Kernel   : $(uname -r)"
 echo "Disk     : $(df -h / | awk 'NR==2{print $5 " used"}')"
 echo "Memory   : $(free -h | awk '/Mem:/{print $3 "/" $2}')"
 echo "User     : $(whoami)"
+echo "NEW v2   : Feature branch is working!"
 echo "=============================="
-echo "App started successfully!"
-# updated
